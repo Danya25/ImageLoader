@@ -1,0 +1,8 @@
+{
+	"FTP":
+	[
+		{"Login":"southjap", "Password":"6[D)CrWOx7hi19", "Server": "mi3-ss49.a2hosting.com", "Path":"public_html/usa/italy/public_html/spain","Url": "http://southjap.wwwmi3-ss49.a2hosted.com"},
+		{"Login":"", "Password":"", "Server": ""},
+		{"Login":"", "Password":"", "Server": ""},
+	]
+}

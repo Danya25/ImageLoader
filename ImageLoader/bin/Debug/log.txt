@@ -1,0 +1,118 @@
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в ImageLoader.LoaderImage.<LoadImgOnpostimages>d__7.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\LoaderImage.cs:строка 113
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Polly.Retry.AsyncRetryEngine.<ImplementationAsync>d__0`1.MoveNext() в C:\projects\polly\src\Polly\Retry\AsyncRetryEngine.cs:строка 66
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Polly.AsyncPolicy.<ExecuteAsync>d__21`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ImageLoader.ImageLoader.<>c__DisplayClass10_2.<<startUpload_btn_Click>b__5>d.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 167System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в ImageLoader.LoaderImage.<LoadImgOnpostimages>d__7.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\LoaderImage.cs:строка 113
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Polly.Retry.AsyncRetryEngine.<ImplementationAsync>d__0`1.MoveNext() в C:\projects\polly\src\Polly\Retry\AsyncRetryEngine.cs:строка 66
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Polly.AsyncPolicy.<ExecuteAsync>d__21`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ImageLoader.ImageLoader.<>c__DisplayClass10_2.<<startUpload_btn_Click>b__5>d.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 167System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в ImageLoader.LoaderImage.<LoadImgOnpostimages>d__7.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\LoaderImage.cs:строка 113
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Polly.Retry.AsyncRetryEngine.<ImplementationAsync>d__0`1.MoveNext() в C:\projects\polly\src\Polly\Retry\AsyncRetryEngine.cs:строка 66
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Polly.AsyncPolicy.<ExecuteAsync>d__21`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в ImageLoader.ImageLoader.<>c__DisplayClass10_2.<<startUpload_btn_Click>b__5>d.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 167Problem with download photo: System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   в ImageLoader.ImageLoader.<>c__DisplayClass16_2.<ftpLoad_btn_Click>b__2() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+   в Polly.Policy.<>c__DisplayClass108_0.<Execute>b__0(Context ctx, CancellationToken ct) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в Polly.Policy.<>c__DisplayClass138_0.<Implementation>b__0(Context ctx, CancellationToken token) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Retry.RetryEngine.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Action`4 onRetry, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider) в C:\projects\polly\src\Polly\Retry\RetryEngine.cs:строка 64
+   в Polly.Retry.RetryPolicy.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Retry\RetryPolicy.cs:строка 35
+   в Polly.Policy.Implementation(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 73
+   в Polly.Policy.Execute(Action action) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в ImageLoader.ImageLoader.<<ftpLoad_btn_Click>b__16_0>d.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+Problem with download photo: System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   в ImageLoader.ImageLoader.<>c__DisplayClass16_2.<ftpLoad_btn_Click>b__2() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+   в Polly.Policy.<>c__DisplayClass108_0.<Execute>b__0(Context ctx, CancellationToken ct) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в Polly.Policy.<>c__DisplayClass138_0.<Implementation>b__0(Context ctx, CancellationToken token) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Retry.RetryEngine.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Action`4 onRetry, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider) в C:\projects\polly\src\Polly\Retry\RetryEngine.cs:строка 64
+   в Polly.Retry.RetryPolicy.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Retry\RetryPolicy.cs:строка 35
+   в Polly.Policy.Implementation(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 73
+   в Polly.Policy.Execute(Action action) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в ImageLoader.ImageLoader.<<ftpLoad_btn_Click>b__16_0>d.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+Problem with download photo: System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   в ImageLoader.ImageLoader.<>c__DisplayClass16_2.<ftpLoad_btn_Click>b__2() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+   в Polly.Policy.<>c__DisplayClass108_0.<Execute>b__0(Context ctx, CancellationToken ct) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в Polly.Policy.<>c__DisplayClass138_0.<Implementation>b__0(Context ctx, CancellationToken token) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Retry.RetryEngine.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Action`4 onRetry, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider) в C:\projects\polly\src\Polly\Retry\RetryEngine.cs:строка 64
+   в Polly.Retry.RetryPolicy.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Retry\RetryPolicy.cs:строка 35
+   в Polly.Policy.Implementation(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 73
+   в Polly.Policy.Execute(Action action) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в ImageLoader.ImageLoader.<<ftpLoad_btn_Click>b__16_0>d.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+Problem with download photo: System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   в ImageLoader.ImageLoader.<>c__DisplayClass16_2.<ftpLoad_btn_Click>b__2() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+   в Polly.Policy.<>c__DisplayClass108_0.<Execute>b__0(Context ctx, CancellationToken ct) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в Polly.Policy.<>c__DisplayClass138_0.<Implementation>b__0(Context ctx, CancellationToken token) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Retry.RetryEngine.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Action`4 onRetry, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider) в C:\projects\polly\src\Polly\Retry\RetryEngine.cs:строка 64
+   в Polly.Retry.RetryPolicy.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Retry\RetryPolicy.cs:строка 35
+   в Polly.Policy.Implementation(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 73
+   в Polly.Policy.Execute(Action action) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в ImageLoader.ImageLoader.<<ftpLoad_btn_Click>b__16_0>d.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+Problem with download photo: System.Net.WebException: Удаленный сервер возвратил ошибку: (403) Запрещено.
+   в System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   в ImageLoader.ImageLoader.<>c__DisplayClass16_2.<ftpLoad_btn_Click>b__2() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+   в Polly.Policy.<>c__DisplayClass108_0.<Execute>b__0(Context ctx, CancellationToken ct) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в Polly.Policy.<>c__DisplayClass138_0.<Implementation>b__0(Context ctx, CancellationToken token) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Retry.RetryEngine.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Action`4 onRetry, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider) в C:\projects\polly\src\Polly\Retry\RetryEngine.cs:строка 64
+   в Polly.Retry.RetryPolicy.Implementation[TResult](Func`3 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Retry\RetryPolicy.cs:строка 35
+   в Polly.Policy.Implementation(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.SyncNonGenericImplementation.cs:строка 18
+   в Polly.Policy.Execute(Action`2 action, Context context, CancellationToken cancellationToken) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 73
+   в Polly.Policy.Execute(Action action) в C:\projects\polly\src\Polly\Policy.ExecuteOverloads.cs:строка 18
+   в ImageLoader.ImageLoader.<<ftpLoad_btn_Click>b__16_0>d.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 389
+Problem with upload photo on FTP: System.Net.WebException: Удаленный сервер возвратил ошибку: (553) Недопустимое имя файла.
+   в System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   в System.Net.WebClient.UploadFile(String address, String method, String fileName)
+   в ImageLoader.FTP.<LoadInFtp>d__0.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\FTPLoader.cs:строка 41
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Polly.AsyncPolicy.<>c__DisplayClass40_0.<<ImplementationAsync>b__0>d.MoveNext() в C:\projects\polly\src\Polly\AsyncPolicy.NonGenericImplementation.cs:строка 25
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Polly.Retry.AsyncRetryEngine.<ImplementationAsync>d__0`1.MoveNext() в C:\projects\polly\src\Polly\Retry\AsyncRetryEngine.cs:строка 66
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Polly.AsyncPolicy.<ExecuteAsync>d__12.MoveNext() в C:\projects\polly\src\Polly\AsyncPolicy.ExecuteOverloads.cs:строка 108
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в ImageLoader.ImageLoader.<<ftpLoad_btn_Click>b__16_0>d.MoveNext() в C:\Users\Danya\source\repos\ImageLoader\ImageLoader\Form1.cs:строка 408
